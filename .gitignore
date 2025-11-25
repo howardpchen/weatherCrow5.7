@@ -1,0 +1,13 @@
+# Local secrets
+config.h
+
+# Build artifacts
+build/
+*.elf
+*.bin
+*.map
+
+# IDE/OS cruft
+.DS_Store
+*.swp
+.vscode/
