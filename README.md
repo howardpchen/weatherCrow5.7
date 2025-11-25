@@ -2,6 +2,13 @@
 
 ESP32-S3 firmware that renders current conditions, AQI, and a short forecast on a 5.7" e-paper panel. It pulls weather from OpenWeatherMap One Call 3.0 and optional U.S. AQI from AirNow, then deep-sleeps between refreshes to conserve power.
 
+## Features
+- Current conditions with temperature (UV index and wind speed included)
+- Haze icon added alongside existing weather glyphs
+- AQI overlay via AirNow (falls back gracefully if unavailable)
+- OpenWeatherMap One Call 3.0 for forecasts and hourly precip chance
+- Deep-sleep scheduling to conserve battery
+
 ## Hardware
 - ESP32-S3 module
 - 5.7" (792x272) e-paper driven by dual SSD1683 controllers
