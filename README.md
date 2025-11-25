@@ -53,3 +53,6 @@ arduino-cli upload -p /dev/ttyUSB0 --fqbn esp32:esp32:esp32s3 weatherCrow5.7.ino
 - If Wi-Fi fails, verify SSID/password and router reachability; the device retries and shows an error panel with helpful metadata.
 - HTTP errors from AirNow are non-fatal; the rest of the panel still renders.
 - For layout changes, call a full clear (already done before rendering) and capture panel photos to verify alignment.
+
+## Acknowledgements
+- Based on the original project at https://github.com/kotamorishi/weather-crow5.7, extended here with AQI via AirNow, UV index display, wind speed, and additional iconography.
